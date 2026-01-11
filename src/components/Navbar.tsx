@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
           </Link>
           <button
             className="navbar-toggler"
-            data-bs-toggle="collapser"
+            data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
           >
             <span className="navbar-toggler-icon"></span>

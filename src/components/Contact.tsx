@@ -1,4 +1,3 @@
-import React from "react";
 
 function Contact() {
   return (
@@ -30,7 +29,7 @@ function Contact() {
           <div className="mb-3">
             <textarea
               className="form-control"
-              rows="4"
+              rows={4}
               placeholder="Your Message"
             />
           </div>

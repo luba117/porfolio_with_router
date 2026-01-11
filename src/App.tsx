@@ -1,4 +1,3 @@
-import { useState } from 'react'
 
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
@@ -10,14 +9,12 @@ import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
 
     <>
     <Navbar/>
       <Routes>
-        <Route path="/" element={<Hero/>} />
+        <Route path="/luba-portfolio" element={<Hero/>} />
         <Route path='/about' element={<About/>}/>
         <Route path="/skills" element={<Skills/>} />
         <Route path='/projects' element={<Projects/>}/>
